@@ -158,6 +158,11 @@ section {
     color: white;
 }
 
+#about .width-30 {
+    text-align: justify;
+    padding: 1em;
+}
+
 #about p {
     font-size: 1.2em;
 }
@@ -368,6 +373,10 @@ input::placeholder, textarea::placeholder{
 .center {
     justify-content: center;
     align-items: center;
+}
+
+.width-30 {
+    width: 30%;
 }
 
 /*
