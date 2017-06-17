@@ -116,6 +116,10 @@ nav#barra_menu {
     z-index: 1;
 }
 
+nav#barra_menu h1 {
+    padding-top: 0.5em;
+}
+
 #barra_menu a {
     color: white;
     text-decoration: none;
@@ -174,6 +178,7 @@ section {
 
 div#enlaces_menu {
     text-align: right;
+    padding-top: 1em;
 }
 
 div#enlaces_menu a {
@@ -330,6 +335,25 @@ input::placeholder, textarea::placeholder{
     font-size: 0.3em;
 }
 
+.flex {
+    display: flex;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.left {
+    justify-content: right;
+}
+
+.right {
+    justify-content: left;
+}
 
 /*
 #menu {
