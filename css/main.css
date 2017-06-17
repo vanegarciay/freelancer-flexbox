@@ -126,7 +126,7 @@ nav#barra_menu h1 {
 }
 
 header {
-    margin-top: 6.5em; 
+    padding-top: 6.5em; 
     padding-bottom: 4.8em !important; 
     background-color: #18BC9C;
     color: white;
@@ -353,6 +353,11 @@ input::placeholder, textarea::placeholder{
 
 .right {
     justify-content: left;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
 }
 
 /*
