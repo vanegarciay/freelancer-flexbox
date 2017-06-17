@@ -95,7 +95,7 @@
 }
 
 .img-responsive{
-    max-width: 100%;
+    min-width: 100%;
     width: 100%;
 }
 
@@ -141,6 +141,12 @@ header h1 {
     padding-top: 0;
     font-size: 4em;
     font-weight: bold;
+}
+
+.box-services {
+    min-width: 350px;
+    width: 30%;
+    margin: 1%;
 }
 
 section {
@@ -337,6 +343,10 @@ input::placeholder, textarea::placeholder{
 
 .flex {
     display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .full-width {
